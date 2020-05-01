@@ -9,15 +9,13 @@
 	<name>Glowik Examples</name>
 	<organization>
 		<name>Andrew M. Glowik </name>
-		<url>http://pazdziernik.typepad.com/</url>
 	</organization>
 	<developers>
 		<developer>
 			<id>amglowik</id>
 			<name>Andrew M. Glowik</name>
-			<email>andy.glowik@bericotechnologies.com</email>
-			<organization>Berico Technologies, Inc. </organization>
-			<organizationUrl>http://bericotechnologies.com/</organizationUrl>
+			<email>amglowik@verizon.net</email>
+			<organization>Glowik </organization>
 			<roles>
 				<role>developer</role>
 			</roles>
@@ -102,8 +100,8 @@
 					<artifactId>maven-compiler-plugin</artifactId>
 					<version>2.3.2</version>
 					<configuration>
-						<source>1.6</source>
-						<target>1.6</target>
+						<source>1.8</source>
+						<target>1.8</target>
 					</configuration>
 				</plugin>
 				<plugin>
@@ -188,7 +186,7 @@
 			</plugins>
 		</pluginManagement>
 	</build>
-	<distributionManagement>
+	<!--<distributionManagement>
 		<repository>
 			<id>pim-repository</id>
 			<name>Internal Releases</name>
@@ -199,11 +197,11 @@
 			<name>Internal Releases</name>
 			<url>http://localhost:8081/nexus/content/repositories/snapshots</url>
 		</snapshotRepository>
-	</distributionManagement>
+	</distributionManagement> -->
 	<modules>
 		<module>DecoratorPattern</module>
 		<module>SortMapExample</module>
-		<module>MongoDBTest</module>
+		<!-- <module>MongoDBTest</module> -->
 		<module>EnumSample</module>
 	</modules>
 	<profiles>
